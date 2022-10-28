@@ -1,1 +1,1 @@
-my name is pamela and i am a student at Stutern 
+my name is pamela and i am a student at Stutern. I am in the Software Engineering track. 
