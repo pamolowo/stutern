@@ -1,9 +1,41 @@
+.container{
+    width: 500px;
+    margin:auto;
+    height: 500px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    background: skyblue;
+    padding: 50px;
+    border-radius: 5px;
 
-.para{
-    border: solid 5px;
-    padding:20px;
-    border-color: rgb(63, 31, 190);
-    height: 40px;
-    width: 400px;
+}
+
+.form-container{
+    width: 450px;
+
+}
+input{
+    margin-top: 20px;
+    width: 100%;
+    background: #858585;
+    border: none;
+    height: 30px;
     
+}
+#form-message{
+    margin-top: 20px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color: #858585;
+    border: 2px solid #f9004d;
+    cursor: pointer;
 }

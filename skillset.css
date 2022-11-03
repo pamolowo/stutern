@@ -1,0 +1,38 @@
+.skills{
+    padding: 10px 30px;
+    
+}
+.skill_set{
+    background-color: rgb(174, 173, 172);
+    height: 50px;
+    text-align:end;
+    width: 100%;
+    
+    
+    
+}
+.html{
+    width: 95%;
+    background-color: green;
+    
+}
+.css{
+    width: 55%;
+    background-color: rgb(56, 56, 128);
+}
+.py{
+    width: 25%;
+    background-color: rgb(247, 113, 41);
+}
+.js{
+    width: 5%;
+    background-color: purple;
+}
+.php{
+    width: 1.0%;
+    background-color: yellow;
+}
+.html p, .css p, .py p ,.js p, .php p{
+    padding: 17px 0px;
+}
+

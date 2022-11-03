@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html tags</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact page</title>
     <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <b>This is a bold text</b></br>
-   <mark>This is a marked text</mark></br>
-   <div class="para">
-   <em>
-    This is an emphasized text.Lorem ipsum dolor sit
-     adipisicing elit. Amet dolorem ipsum nemo
-    , modi quae et possimus odit debitis nisi?
-   </em>
-</div>
-<p>When writing formulas use subscript and superscript</p></br>
-<b>H<sub>2</sub>O</b>
-<p></p>
-<b>O<sup>2</sup></b>
-<p><ins>This is an inserted text</ins></p>
-<p><i>This text is an italized</i></p>
-<p><strong> This is a strong text</str0ng></p>
-
-
-</body>
+    <!-- ./ on same dirctory ../going to anther directory -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Form</h1>
+      <p>Please fill in the form with your contact details</p>
+      <hr />
+      <!-- form attributes action and method -->
+      <!-- method means post(sending to the backend) and get(a response from the backend) -->
+      <!-- CRUD create read update and delete -->
+      <!-- action means the form needs to submit -->
+      <form action="" method="post" class="form-container">
+        <div>
+          <label for="Name">Your Name</label>
+          <div class="main"><input type="text" /></div>
+        </div>
+        <div>
+          <label for="Email Address">Your Email address</label>
+          <div class="main"><input type="email" /></div>
+        </div>
+        <div>
+          <label for="Message">Your Message</label>
+          <div>
+            <textarea
+              name="Message"
+              id="form-message"
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <!-- <div role="button"></div> -->
+        <div>
+          <button>Send Message</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
